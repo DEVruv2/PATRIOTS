@@ -1,5 +1,6 @@
 @media (max-width: 1300px) {}
 
+/* iPhone 11 Pro, 12 Pro, 13 Pro, 14 Pro, 15 Pro */
 @media (max-width: 1120px) {}
 
 @media (max-width: 992px) {
@@ -8,7 +9,7 @@
   }
 
   .hero_area {
-    background: linear-gradient(130deg, #3b2f2b , #54413a );
+    background: linear-gradient(130deg, #3b2f2b, #54413a);
   }
 
   .hero_area .hero_bg_box {
@@ -24,27 +25,22 @@
     align-items: center;
   }
 
-
   .custom_nav-container .navbar-nav .nav-item .nav-link {
     padding: 5px 25px;
     margin: 5px 0;
   }
-
-
 }
 
 @media (max-width: 768px) {
   .about_section .img-box {
     margin-bottom: 45px;
   }
-
 }
 
 @media (max-width: 576px) {
   .header_section .header_top .contact_nav a span {
     display: none;
   }
-
 
   .client_section .client_container {
     width: 100%;
@@ -95,6 +91,84 @@
   .service_section .box .img-box {
     justify-content: flex-start;
     margin-bottom: 15px;
+  }
+}
+
+/* iPhone 11, 12, 13, 14, 15 (Standard) and iPhone 11 Pro Max, 12 Pro Max, 13 Pro Max, 14 Pro Max, 15 Pro Max */
+@media (max-width: 414px) {
+  .slider_section .detail-box h1 {
+    font-size: 1.75rem;
+  }
+
+  .track_section form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track_section form input {
+    width: 100%;
+  }
+
+  .track_section form button {
+    padding: 10px 50px;
+    margin-top: 10px;
+  }
+
+  .header_section .header_top .contact_nav a span {
+    display: none;
+  }
+
+  .service_section .box {
+    flex-direction: column;
+  }
+
+  .service_section .box .img-box {
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 20px;
+    margin: 5px 0;
+  }
+}
+
+/* iPhone 11 Pro, 12 Pro, 13 Pro, 14 Pro, 15 Pro */
+@media (max-width: 375px) {
+  .slider_section .detail-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .track_section form {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .track_section form input {
+    width: 100%;
+  }
+
+  .track_section form button {
+    padding: 8px 45px;
+    margin-top: 10px;
+  }
+
+  .header_section .header_top .contact_nav a span {
+    display: none;
+  }
+
+  .service_section .box {
+    flex-direction: column;
+  }
+
+  .service_section .box .img-box {
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 15px;
+    margin: 5px 0;
   }
 }
 
