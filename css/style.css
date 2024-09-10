@@ -822,6 +822,13 @@ a:focus {
   margin-right: 5px;
 }
 
+@media (max-width: 768px) {
+  .service_section .img-box img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 .info_section .info_contact .contact_link_box a:hover {
   color: #d5af6c;
 }
